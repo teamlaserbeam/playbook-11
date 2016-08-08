@@ -33,15 +33,11 @@ The Playbook holds all the rules we **must** follow when writing front-end code 
 
 ## Cool articles
 
-Before you dive deep in our front-end environment & workflow, take some time to read these interesting articles. They will help set your mind for what's next and why we chose to follow some rules and patterns.
+Before you dive deep in our front-end environment & workflow, take some time to read these interesting articles from our knowledge base. They will help set your mind for what's next and why we chose to follow some rules and patterns.
 
 **Enjoy!**
 
 - [AMARO grok](https://github.com/amaroteam/grok/)
-- [Medium's CSS is actually pretty f***ing good](https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06#.bmcj4noxz)
-- [On Empathy & Pull Requests](https://slack.engineering/on-empathy-pull-requests-979e4257d158#.5q0e1ah29)
-- [Front-end performance for web designers and front-end developers](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/)
-- [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
 
 ## Discussion
 
