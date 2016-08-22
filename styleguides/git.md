@@ -6,24 +6,25 @@ Version control is a must in web development nowadays. These are a set of Git be
 
 - `.gitignore`
 - Branches
-	- The one branch to rule them all
-	- Testing branches
-	- Naming conventions
-	- Deleting branches
-	- Feature branches
+  - The one branch to rule them all
+  - Testing branches
+  - Naming conventions
+  - Deleting branches
+  - Feature branches
 - Commit messages
-	- General rules
-	- Language
-	- Tense
-	- Emojis
-		- Emoji commit list
+  - General rules
+  - Language
+  - Tense
+  - Emojis
+    - Emoji commit list
 - Releases
 - Files
 - Pull requests
-	- What's it?
-	- How it works
-	- Size
-	- Comments
+  - Good practices
+  - Title
+  - Description
+  - Size
+  - Comments
 
 ## `.gitignore`
 
@@ -59,19 +60,19 @@ In the `AECP` project we use a 3 step process to test our builds.
 
 - Delete your branch from the upstream repository after it's merged (unless there is a specific reason not to).
 
-		# Delete a remote branch
-		git branch -D old-feature-branch
-		git push <remote> :old-feature-branch
+    # Delete a remote branch
+    git branch -D old-feature-branch
+    git push <remote> :old-feature-branch
 
 ### Feature branches
 
 - If you're working on a big feature, do it in a new branch to avoid merge problems when pulling work from remote.
 
-		# Working in a new branch
-		~ (dev) git checkout -b my-new-feature
-			... Do stuff here
-		~ (dev) git add -A
-		~ (dev) git commit -m "Technical bla bla bla"
+    # Working in a new branch
+    ~ (dev) git checkout -b my-new-feature
+      ... Do stuff here
+    ~ (dev) git add -A
+    ~ (dev) git commit -m "Technical bla bla bla"
 
 ## Commit messages
 
@@ -93,7 +94,7 @@ In the `AECP` project we use a 3 step process to test our builds.
 
 - Do not use past or present continuous tenses for commit messages, those should written using imperative present.
 
-		Add feature xpto.
+    Add feature xpto.
 
 > **Reason:** This is a recommendation from [Git itself](http://git.kernel.org/cgit/git/git.git/tree/Documentation/SubmittingPatches?id=HEAD#n111).
 
@@ -130,7 +131,7 @@ In the `AECP` project we use a 3 step process to test our builds.
 - Until we have an automated process the `CHANGELOG.md` file **must** be updated manually before each new release.
 - When releasing a new version, use the appropriate Semver number ID and write a commit message in the following format:
 
-		git commit -m ":gem: Release vX.Y.Z"
+    git commit -m ":gem: Release vX.Y.Z"
 
 ### Major releases
 
@@ -151,29 +152,23 @@ In the `AECP` project we use a 3 step process to test our builds.
 
 ## Pull-Requests
 
+### Good practices
+
 - Never edit your `master` branch directly.
 - **None _pull-requests_ with changes on `master` will be accepted.**
 - Always push your changes to the corresponding branch on `origin`.
 - Before pushing your branch, update it with the latest changes from `origin`. This reduces drastically the complexity of merging conflicts.
 
-### What's it?
+### Title
 
-- When you file a pull request, all you're doing is _requesting_ that another developer (e.g., the project maintainer/your teammates/your team leader) _pulls_ a branch from your repository into their repository.
-- This means that you need to provide 4 pieces of information to file a pull request:
-    - The source repository;
-    - The source branch;
-    - The destination repository;
-    - The destination branch.
+- Make clear what you're fixing with this PR.
+- Keep it under one line length (72 characters max).
+- Rules for writing good git commit messages applies here.
 
-### How it works
+### Description
 
-- The developer forks the official repo to their personal Bitbucket account.
-- The developer clones his Bitbucket repo to his local machine.
-- The developer creates a new branch to work in the new feature.
-- The developer pushes the feature to his Bitbucket repo.
-- The developer creates the pull request through his Bitbucket account.
-- The rest of the team reviews the code, discusses it and alters it, if necessary.
-- The project maintainer merges the feature into the official repository and closes the pull request.
+- Use the description to clarify any doubts about the bug, when/where it happened and how it was fixed.
+- Be clear, there's no need to write a book in the description, but you're not paying for every character typed.
 
 ### Size
 
