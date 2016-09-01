@@ -1,4 +1,4 @@
-# `git commit -m "AMARO Version Control"`
+# `git styleguide`
 
 Version control is a must in web development nowadays. These are a set of Git best practices we adopt at AMARO to make our development process easier.
 
