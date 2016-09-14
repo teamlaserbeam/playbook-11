@@ -1,3 +1,5 @@
+![The Playbook](/assets/logo.png)
+
 # Playbook
 
 The Playbook holds all the rules we **must** follow when writing front-end code at AMARO.
@@ -12,25 +14,6 @@ The Playbook holds all the rules we **must** follow when writing front-end code 
 
 > Websites are systems rather than pages and as soon as we stop perceiving them as that, the better. - _Anna Debenham_
 
-## Table of contents
-
-- Introduction
-- Tools
-- Project Setup
-    - Configuration
-- Documentation
-    - Blog articles
-    - Case studies
-    - Wiki articles
-- Code style guide
-    - HTML
-    - CSS/Sass
-    - JavaScript
-    - React
-    - Markdown
-    - Git
-    - Semantic Versioning
-
 ## Cool articles
 
 Before you dive deep in our front-end environment & workflow, take some time to read these interesting articles from our knowledge base. They will help set your mind for what's next and why we chose to follow some rules and patterns.
@@ -41,7 +24,7 @@ Before you dive deep in our front-end environment & workflow, take some time to 
 
 ## Discussion
 
-**This is a living project.** So you don't need to agree with everything presented by these documents. Feel free to [open an issue]() to discuss changes and improvements.
+**This is a living project.** So you don't need to agree with everything presented by these documents. Feel free to [open an issue](https://github.com/amaroteam/playbook/issues) to discuss changes and improvements.
 
 ## Disclaimer
 
