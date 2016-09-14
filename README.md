@@ -2,7 +2,7 @@
 
 # Playbook
 
-The Playbook holds all the rules we **must** follow when writing front-end code at AMARO.
+The Playbook holds all the rules we **must** follow when writing code at AMARO.
 
 ## Quotes
 
