@@ -2,10 +2,6 @@
 
 Some rules to follow when writing HTML markup for AMARO projects.
 
-## Table of contents
-
-- `TODO`
-
 ## General principles
 
 - Strive for a semantic HTML code.

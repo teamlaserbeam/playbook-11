@@ -2,30 +2,6 @@
 
 Version control is a must in web development nowadays. These are a set of Git best practices we adopt at AMARO to make our development process easier.
 
-## Table of contents
-
-- `.gitignore`
-- Branches
-  - The one branch to rule them all
-  - Testing branches
-  - Naming conventions
-  - Deleting branches
-  - Feature branches
-- Commit messages
-  - General rules
-  - Language
-  - Tense
-  - Emojis
-    - Emoji commit list
-- Releases
-- Files
-- Pull requests
-  - Good practices
-  - Title
-  - Description
-  - Size
-  - Comments
-
 ## `.gitignore`
 
 - The `.gitignore` is a config file where we specify which files should **not** be included in version control.
