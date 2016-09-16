@@ -36,19 +36,19 @@ In the `AECP` project we use a 3 step process to test our builds.
 
 - Delete your branch from the upstream repository after it's merged (unless there is a specific reason not to).
 
-    # Delete a remote branch
-    git branch -D old-feature-branch
-    git push <remote> :old-feature-branch
+        # Delete a remote branch
+        git branch -D old-feature-branch
+        git push <remote> :old-feature-branch
 
 ### Feature branches
 
 - If you're working on a big feature, do it in a new branch to avoid merge problems when pulling work from remote.
 
-    # Working in a new branch
-    ~ (dev) git checkout -b my-new-feature
-      ... Do stuff here
-    ~ (dev) git add -A
-    ~ (dev) git commit -m "Technical bla bla bla"
+        # Working in a new branch
+        ~ (dev) git checkout -b my-new-feature
+        ... Do stuff here
+        ~ (dev) git add -A
+        ~ (dev) git commit -m "Technical bla bla bla"
 
 ## Commit messages
 
@@ -70,7 +70,7 @@ In the `AECP` project we use a 3 step process to test our builds.
 
 - Do not use past or present continuous tenses for commit messages, those should written using imperative present.
 
-    Add feature xpto.
+        Add feature xpto.
 
 > **Reason:** This is a recommendation from [Git itself](http://git.kernel.org/cgit/git/git.git/tree/Documentation/SubmittingPatches?id=HEAD#n111).
 
@@ -107,7 +107,7 @@ In the `AECP` project we use a 3 step process to test our builds.
 - Until we have an automated process the `CHANGELOG.md` file **must** be updated manually before each new release.
 - When releasing a new version, use the appropriate Semver number ID and write a commit message in the following format:
 
-    git commit -m ":gem: Release vX.Y.Z"
+        git commit -m ":gem: Release vX.Y.Z"
 
 ### Major releases
 
