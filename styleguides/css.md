@@ -32,9 +32,9 @@ Some rules to follow when writing CSS for AMARO projects.
 - If you need to add opacity to a color it's prefered to use Sass `lighten` and `darken` functions.
 - Do not use other scales like color names, HSL and others.
 
-      $amaro-black: #333;
-      $amaro-gray: lighten($amaro-black, 42%);
-      $amaro-red: #ab2929;
+            $amaro-black: #333;
+            $amaro-gray: lighten($amaro-black, 42%);
+            $amaro-red: #ab2929;
 
 ## `!important`
 
@@ -46,7 +46,7 @@ Some rules to follow when writing CSS for AMARO projects.
 
 - Variables that act as constants should be named in `SNAKE_CASE_ALL_CAPS` followed by `!default`.
 
-      $FONT_SIZE: 16px !default;
+            $FONT_SIZE: 16px !default;
 
 ## `js-*` prefixed classes
 
@@ -55,7 +55,7 @@ Some rules to follow when writing CSS for AMARO projects.
 - It's not necessary to use them in every case, just think of them as a tool in your utility belt.
 - `js-*` classes should not, under any circumstances, be styled.
 
-      <a href="/login" class="btn btn--primary js-btn-login">Login</a>
+            <a href="/login" class="btn btn--primary js-btn-login">Login</a>
 
 ## Scales
 
@@ -64,16 +64,16 @@ Some rules to follow when writing CSS for AMARO projects.
 - That's why we use a standard scale for these items.
 - All values for these properties must come from the definitions in the `_scales.sass` partial inside the `/_helpers` folder.
 
-      // z-index scale example
-      $z-index-1: 100;
-      $z-index-2: 200;
-      $z-index-3: 300;
-      $z-index-4: 400;
-      $z-index-5: 500;
-      $z-index-6: 600;
-      $z-index-7: 700;
-      $z-index-8: 800;
-      $z-index-9: 900;
+            // z-index scale example
+            $z-index-1: 100;
+            $z-index-2: 200;
+            $z-index-3: 300;
+            $z-index-4: 400;
+            $z-index-5: 500;
+            $z-index-6: 600;
+            $z-index-7: 700;
+            $z-index-8: 800;
+            $z-index-9: 900;
 
 ## Specificity
 
@@ -81,21 +81,21 @@ Some rules to follow when writing CSS for AMARO projects.
 - The BEM methodology solves this brilliantly by allowing an easy way to create unique classes names.
 - Try to abstract the selectors from elements. Elements can be easily changed, class names stays the same.
 
-      // Avoid
-      ul.user-list li span a:hover {
-        color: red;
-      }
+            // Avoid
+            ul.user-list li span a:hover {
+              color: red;
+            }
 
-      // Prefer
-      .user-list__item .link:hover
-        color: $amaro-red
+            // Prefer
+            .user-list__item .link:hover
+              color: $amaro-red
 
 ## Quotes
 
 - Quotes are optional in CSS and it's pre-processors. We chose to use quotes as it's visually clearer that the string is not a selector or a property.
 
-      background-image: url("/path/to/image.jpg")
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-image: url("/path/to/image.jpg")
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 ## Ordering
 
