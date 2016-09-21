@@ -11,6 +11,7 @@
 > Major version update when you make incompatible API changes.
 
 - Initial development user major version `0`, e.g. `0.1.0`.
+- Every Major version (starting in version 1.y.z) will be named as bones names.
 
 ### Minor
 
