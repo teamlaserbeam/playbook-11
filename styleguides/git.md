@@ -94,6 +94,8 @@ Version control is a must in web development nowadays. These are a set of Git be
 - :penguin: `:penguin:`: When fixing something on Linux
 - :white_check_mark: `:white_check_mark:`: When adding tests
 - :wrench: `:wrench:`: When updating config settings
+- :package: `:package:`: When generating bundled files
+- :skull: `:skull:`: When updating Skeleton version
 
 ## Releases
 
