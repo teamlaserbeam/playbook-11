@@ -18,13 +18,6 @@ Version control is a must in web development nowadays. These are a set of Git be
 - The main branch is `master`. No direct changes are accepted into `master`.
 - The only way to update `master` is from an approved _pull-request_.
 
-### Testing branches
-
-In the `AECP` project we use a 3 step process to test our builds.
-
-- `test`: This is used for experimental stuff. The remote is: [test.amaro.com](http://test.amaro.com)
-- `dev`: This is the main development branch. The remote is: [dev.amaro.com](http://dev.amaro.com)
-- `beta`: This is the final testing environment. The remote is: [beta.amaro.com](http://beta.amaro.com)
 
 ### Naming conventions
 
