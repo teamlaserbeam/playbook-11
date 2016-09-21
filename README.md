@@ -14,6 +14,19 @@ The Playbook holds all the rules we **must** follow when writing code at AMARO.
 
 > Websites are systems rather than pages and as soon as we stop perceiving them as that, the better. - _Anna Debenham_
 
+
+# Styleguides
+
+List of styleguides that we **must** follow when writing code at AMARO.
+
+- [Markdown](styleguides/markdown.md) 
+- [HTML](styleguides/html.md) 
+- [CSS](styleguides/css.md)
+- [JavaScript](styleguides/javascript.md) 
+- [React](styleguides/react.md)
+- [Git](styleguides/git.md)
+- [SemVer](styleguides/semver.md)
+
 ## Cool articles
 
 Before you dive deep in our front-end environment & workflow, take some time to read these interesting articles from our knowledge base. They will help set your mind for what's next and why we chose to follow some rules and patterns.
